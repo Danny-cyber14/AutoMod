@@ -1,0 +1,34 @@
+/* === Navbar 1 === */
+.navbar-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ff595e;
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  color: white;
+}
+
+.navbar-1 .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.navbar-1 .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navbar-1 .nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar-1 .nav-links a:hover {
+  color: #ffe066;
+}

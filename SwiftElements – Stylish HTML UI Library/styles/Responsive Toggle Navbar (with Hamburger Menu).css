@@ -1,0 +1,62 @@
+/* === Navbar 2 === */
+.navbar-2 {
+  background-color: #0077b6;
+  padding: 1rem 2rem;
+  margin-bottom: 2rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.navbar-2 .brand {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: white;
+}
+
+.navbar-2 .hamburger {
+  display: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+.navbar-2 .nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navbar-2 .nav-menu a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease;
+  font-weight: 500;
+}
+
+.navbar-2 .nav-menu a:hover {
+  color: #90e0ef;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-2 .hamburger {
+    display: block;
+  }
+
+  .navbar-2 .nav-menu {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+
+  .navbar-2 .nav-menu.show {
+    display: flex;
+  }
+
+  .navbar-2 .nav-menu li {
+    text-align: center;
+    padding: 0.5rem 0;
+  }
+}

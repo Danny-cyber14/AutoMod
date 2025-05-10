@@ -1,0 +1,23 @@
+/* === Button 5: Icon + Text Button === */
+.btn-icon-text {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .btn-icon-text:hover {
+    background-color: #218838;
+  }
+  
+  .btn-icon-text .icon {
+    font-size: 1.25rem;
+  }
+  

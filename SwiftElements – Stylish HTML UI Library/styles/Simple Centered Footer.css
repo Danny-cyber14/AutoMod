@@ -1,0 +1,17 @@
+/* === Footer 1 === */
+.footer-1 {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #e0f7fa;
+    color: #007c91;
+    font-size: 1rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  .footer-1 p {
+    margin: 0;
+    font-weight: 500;
+  }
+  

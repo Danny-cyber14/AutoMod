@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car Website</title>
+  <link href="output.css" rel="stylesheet">
+  <link rel="stylesheet" href="../src/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link
+  href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+  rel="stylesheet"
+/>
+<link
+href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+rel="stylesheet"
+/>
+
+</head>
+<body class="p-0 m-0 bg-white font-mulish">
+
+  <!-- Navbar -->
+  <nav class="flex items-center justify-between px-6 py-4 bg-black text-white">
+    <!-- Brand -->
+    <div class="text-2xl font-bold text-orange-500">Auto<span class="text-white">Mod</span></div>
+
+    <!-- Hamburger icon (only shows on small screens) -->
+    <div class="text-3xl cursor-pointer block md:hidden" onclick="toggleMenu()">
+      ☰
+    </div>
+
+    <!-- Nav Links -->
+    <ul id="nav-menu" class="hidden md:flex space-x-20 text-white font-semibold ">
+      <li><a href="#home" class="hover:text-orange-400 transition">Home</a></li>
+      <li><a href="#about" class="hover:text-orange-400 transition">About</a></li>
+      <li><a href="#showroom" class="hover:text-orange-400 transition">Showroom</a></li>
+      <li><a href="#shop" class="hover:text-orange-400 transition">Shop</a></li>
+      <li><a href="#Contact" class="hover:text-orange-400 transition">Contact</a></li>
+    </ul>
+
+    <!-- Showroom Button (hidden on small screens) -->
+    <div class="hidden md:block">
+      <a href="#showroom">
+        <button class="bg-orange-500 p-2 text-white font-semibold text-lg rounded-md hover:bg-orange-600 transition w-24">
+          <i class="ri-image-2-fill"></i>
+        </button>
+      </a>
+    </div>
+  </nav>
+
+  <!-- Mobile nav dropdown (appears when ☰ is clicked) -->
+  <ul id="mobile-menu" class="md:hidden hidden flex-col space-y-6 px-6 py-4 bg-black text-white font-semibold">
+    <li><a href="#home" class="hover:text-orange-400 transition">Home</a></li>
+    <li><a href="#about" class="hover:text-orange-400 transition">About</a></li>
+    <li><a href="#showroom" class="hover:text-orange-400 transition">Showroom</a></li>
+    <li><a href="#shop" class="hover:text-orange-400 transition">Shop</a></li>
+    <li><a href="#Contact" class="hover:text-orange-400 transition">Contact</a></li>
+  </ul>
+
+  <!-- Mobile view section -->
+  <div class="mt-2" id="home">
+    <section class="main bg-gray-100 rounded-md mx-2 pt-2 sm:p-16 lg:p-20 md:p-16 sm:py-14 p-14 py-10">
+      <div class="flex flex-row justify-between sm:flex-col md:flex-row lg:flex-row items-left sm:items-start space-y-6 sm:space-y-0 sm:space-x-8">
+        <!-- Text Content -->
+        <div class="sm:flex-1 text-left sm:text-center mx-2 md:text-center lg:text-center" id="hero">
+          <h1 class="text-orange-400 font-extrabold text-4xl lg:text-6xl  sm:text-4xl md:text-center lg:text-center">
+            Auto<span class="text-black font-bold md:text-center lg:text-center">Mod</span>
+          </h1>
+          <p class="text-black font-bold text-lg sm:text-xl md:text-4xl lg:text-4xl mt-4 sm:text-center">
+            Discover, explore, and compare top car models — sleek design meets high performance.
+          </p>
+        </div>
+        <!-- Image -->
+        <div class="flex-shrink-0 mx-2 m-2">
+          <img src="../assets/download.jfif" alt="Car Image" class="rounded-md w-44 h-44 sm:w-44 sm:h-44  lg:w-56 lg:h-56 mx-4 shadow-lg">
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="mt-2" id="about">
+<section class="aout-us bg-gray-100 rounded-md mx-2 pt-2 sm:p-16 lg:p-20 md:p-16 sm:py-14 p-14 py-10">
+<div class="text-left">
+  <h1 class="text-orange-400 font-extrabold text-4xl lg:text-6xl  sm:text-4xl md:text-center lg:text-center sm:text-center">About <span class="text-black">Us</span></h1><br>
+  <p class="font-semibold text-[20px]">At AutoMod, we're all about cars that make your heart race. From jaw-dropping supercars to sleek electric rides, we showcase the future and the legacy of automotive design. Whether you're here to admire, get inspired, or dive deep into car culture — this is your zone.
+
+    AutoMod isn't a dealership — it's your digital garage of dreams. Built by enthusiasts, for enthusiasts.</p>
+<br>
+    <div class="flex justify-between space-x-2">
+
+      <div class="bg-orange-500 text-white hover:bg-orange-950 hover:text-white rounded-md w-32 lg:w-40 md:w-40 sm:w-32  shadow-lg hover:shadow-xl hover:scale-105 transition duration-300 ease-in-out transform" >
+        <h2 class="font-bold text-center text-3xl">
+          Fast and Reliable
+        </h2>
+        <div class="flex justify-center items-center text-5xl">
+        <i class="ri-thumb-up-fill"></i>
+        </div>
+    </div>
+
+    <div class="bg-orange-500 text-white rounded-md w-32 lg:w-40 md:w-40 sm:w-32  hover:bg-orange-950 hover:text-white  shadow-lg hover:shadow-xl hover:scale-105 transition duration-300 ease-in-out transform">
+      <h2 class="font-bold text-center text-3xl">
+        Good car models
+      </h2>
+      <div class="flex justify-center items-center text-5xl">
+      <i class="ri-roadster-fill"></i>
+      </div>
+  </div>
+
+  <div class="bg-orange-500 text-white rounded-md w-32 lg:w-40 md:w-40 sm:w-32  hover:bg-orange-950 hover:text-white  shadow-lg hover:shadow-xl hover:scale-105 transition duration-300 ease-in-out transform">
+    <h2 class="font-bold text-center text-3xl">
+      Good car Prices
+    </h2>
+    <div class="flex justify-center items-center text-5xl  shadow-md hover:shadow-xl hover:scale-105 transition duration-300 ease-in-out transform">
+      <i class="ri-price-tag-3-fill"></i>
+    </div>
+</div>
+
+
+</div>
+</section>
+  </div>
+
+  <section class="section__container popular__container bg-gray-100" id="showroom">
+    <h2 class="section__header text-center">Showcase Area</h2>
+    <div class="popular__grid">
+      <div class="popular__card">
+        <img src="../assets/bugatti.jfif" alt="showroom" />
+        <div class="popular__card__content">
+          <h4>Bugatti</h4>
+       
+        </div>
+      </div>
+      <div class="popular__card">
+        <img src="../assets/lambo.jfif" alt="showroom" />
+        <div class="popular__card__content">
+          <h4>Lamborghini</h4>
+        
+        </div>
+      </div>
+      <div class="popular__card">
+        <img src="../assets/bmw.jfif" alt="showroom" />
+        <div class="popular__card__content">
+          <h4>BMW</h4>
+        </div>
+      </div>
+    <div class="popular__card">
+      <img src="../assets/porsche.jfif" alt="showroom" />
+      <div class="popular__card__content">
+        <h4>Porsche</h4>
+     
+      </div>
+    </div>
+    <div class="popular__card">
+      <img src="../assets/download.jfif" alt="showroom" />
+      <div class="popular__card__content">
+        <h4>Range Rover</h4>
+     
+      </div>
+    </div>
+    <div class="popular__card">
+      <img src="../assets/benz.jfif" alt="showroom" />
+      <div class="popular__card__content">
+        <h4>Mercedi Benz</h4>
+        
+      </div>
+    </div>
+    <div class="popular__card">
+      <img src="../assets/tesla.jfif" alt="showroom" />
+      <div class="popular__card__content">
+        <h4>Tesla</h4>
+      
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <section class="section__container discover__container" id="shop">
+    <h2 class="section__header">TOP CARS</h2>
+    <p class="section__description">
+      Discover our crowd favorites! These cars are loved by everyone and
+      have become the top picks for their irresistible features and design
+    </p>
+    <div class="discover__grid">
+      <div class="discover__card">
+        <img src="../assets/pexels-mikebirdy-120049.jpg" alt="discover" class="img-discover">
+        <div class="discover__card__content">
+          <h4>Mercedez Benz</h4>
+          <p class="section__description">
+            Vibe: Sleek, elegant, classy — it’s giving business tycoon who secretly listens to trap.
+
+            Famous For: Smooth luxury sedans (like the S-Class), badass SUVs (G-Wagon), and the AMG line for that extra roar.
+            
+            Cool Tech: MBUX (Mercedes-Benz User Experience), ambient lighting, and hella smooth interiors that feel like a 5-star hotel on wheels.
+          </p>
+          <h3>
+            $2000.999 <span><s>$4000.999</s></span>
+          </h3>
+          <div class="discover__card__btn">
+            <button class="btn-discover">Buy Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="discover__card">
+        <img src="../assets/pexels-pashal-337909.jpg" alt="discover" class="img-discover">
+        <div class="discover__card__content">
+          <h4>Porsche</h4>
+          <p class="section__description">
+            Vibe: Understated genius — doesn’t scream for attention, just wins.
+
+            Famous For: The iconic 911, plus the Taycan (electric), and luxury SUVs like the Cayenne.
+            
+            Handling: Feels like it’s glued to the road. Perfect for people who say “I don’t race, but I race.”
+          </p>
+          <h3>
+            $1999.9 <span><s> $2000.999</s></span>
+          </h3>
+          <div class="discover__card__btn">
+            <button class="btn-discover">Buy Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="discover__card">
+        <img src="../assets/pexels-pixabay-39855.jpg" alt="discover" class="img-discover">
+        <div class="discover__card__content">
+          <h4>Lamborghini</h4>
+          <p class="section__description">
+            Origin: Italy 🇮🇹 (Founded in 1963)
+
+            Vibe: Sharp, aggressive, built for attention. Think superhero energy with villain design.
+            
+            Famous For: Wild supercars like the Aventador, Huracán, and the luxury SUV Urus.
+            
+            Soundtrack: The exhaust alone could wake up your ancestors
+          </p>
+          <h3>
+            $5000.999 <span><s> $8000.999</s></span>
+          </h3>
+          <div class="discover__card__btn">
+            <button class="btn-discover">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="Contact" class="bg-gray-300 rounded-md mx-2 my-2 lg:p-[120px] shadow-lg p-[80px] flex flex-col justify-center items-center lg:flex lg:flex-row lg:justify-between lg:items-center">
+    <div class="flex justify-center items-center bg-black rounded-md lg:w-[500px] lg:h-[550px] sm:w-[360px] sm:h-[400px] h-[400px] w-[360px] md:h-[520px] md:w-[480px] " id="form">
+    <form id="form">
+      <h2 class="lg:text-5xl text-[28px] sm:text-[28px] md:text-[35px] font-bold text-white">Contact <span class="text-orange-500">Us</span></h2><br>
+      <label for="name" class="lg:text-2xl text-[18px] sm:text-[18px] md:text-[20px] font-bold text-white">Name:</label><br>
+      <input type="text" id="name" placeholder="Your Name" required  class="rounded-md lg:h-12 lg:w-96 lg:mb-6 mb-2 sm:mb-2 md:mb-6 h-7 w-[300px] sm:h-7 sm:w-[300px] md:h-9 md:w-[350px]"><br>
+      <label for="email" class="lg:text-2xl text-[18px] sm:text-[18px] md:text-[20px]  font-bold text-white">Email:</label><br>
+      <input type="email" id="email" placeholder="Your Email" required  class="rounded-md lg:h-12 lg:w-96  lg:mb-6 mb-2 sm:mb-2 md:mb-6 h-7 w-[300px] sm:h-7 sm:w-[300px] md:h-9 md:w-[350px]"><br>
+      <label for="message"  class="lg:text-2xl text-[18px] sm:text-[18px] md:text-[20px]  font-bold text-white">Message:</label><br>
+      <textarea id="message" rows="5" placeholder="Your Message" required class=" lg:mb-6 mb-2 sm:mb-2 md:mb-6 rounded-md lg:w-96 resize-none h-14 w-[300px] sm:h-14 sm:w-[300px] md:h-20 md:w-[350px]"></textarea><br>
+      <button type="submit" class="text-white text-bold lg:text-[21px] rounded-md bg-orange-400 lg:h-[50px] lg:w-44 h-[35px] w-28 sm:h-[35px] sm:w-28 shadow-lg hover:bg-orange-500"><i class="ri-mail-send-fill"></i>send</button>
+      </form> 
+    </div>
+
+    <div id="icons" class="flex justify-center items-center space-between lg:text-5xl text-3xl sm:text-3xl md:text-4xl gap-3 rounded-md  mt-4  ">
+      <h2 class="font-bold lg:text-4xl text-2xl sm:text-2xl md:text-3xl">Socials:</h2>
+      <div><a href="#" class="cursor-pointer hover:text-blue-500"><i class="ri-facebook-circle-fill"></i></a></div>
+      <div><a href="#" class="cursor-pointer hover:text-pink-500"><i class="ri-instagram-fill"></i></a></div>
+      <div><a href="#" class="cursor-pointer hover:text-blue-700"><i class="ri-twitter-x-line"></i></a></div>
+      <div><a href="#" class="cursor-pointer hover:text-green-500"><i class="ri-whatsapp-fill"></i></a></div>
+      <div><a href="#" class="cursor-pointer hover:text-red-600"><i class="ri-youtube-fill"></i></a></div>
+    </div>
+
+  </section>
+
+<footer class="bg-black lg:flex lg:flex-row lg:justify-around md:flex md:flex-row md:justify-around sm:flex sm:flex-col sm:justify-center sm:items-center sm:gap-2 flex flex-col justify-center items-center gap-2">
+  <div class="text-2xl font-bold text-orange-500">Auto<span class="text-white">Mod</span></div>
+
+
+  <div>  
+    <ul id="mobile-menu" class="font-semibold text-white flex flex-col gap-4 sm:flex ">
+    <li><a href="#home" class="hover:text-orange-400 transition">Home</a></li>
+    <li><a href="#about" class="hover:text-orange-400 transition">About</a></li>
+    <li><a href="#showroom" class="hover:text-orange-400 transition">Showroom</a></li>
+    <li><a href="#shop" class="hover:text-orange-400 transition">Shop</a></li>
+    <li><a href="#Contact" class="hover:text-orange-400 transition">Contact</a></li>
+  </ul>
+</div>
+
+<div class="text-white">
+  <h2>Copyright &copy;. All rights reserved.</h2>
+  <p>AutoMod | Danny Dev Designs</p>
+  <p>Images from <a href="https://pinterest.com" target="_blank">Pinterest</a></p>
+</div>
+
+  
+
+<div id="icons" class="flex space-between lg:text-4xl text-3xl sm:text-3xl md:text-4xl gap-3 rounded-md  mt-4 text-white ">
+  <div><a href="#" class="cursor-pointer hover:text-blue-500"><i class="ri-facebook-circle-fill"></i></a></div>
+  <div><a href="#" class="cursor-pointer hover:text-pink-500"><i class="ri-instagram-fill"></i></a></div>
+  <div><a href="#" class="cursor-pointer hover:text-blue-700"><i class="ri-twitter-x-line"></i></a></div>
+  <div><a href="#" class="cursor-pointer hover:text-green-500"><i class="ri-whatsapp-fill"></i></a></div>
+  <div><a href="#" class="cursor-pointer hover:text-red-600"><i class="ri-youtube-fill"></i></a></div>
+</div>
+
+
+</footer>
+
+  <!-- Script to toggle mobile menu -->
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById("mobile-menu");
+      menu.classList.toggle("hidden");
+    }
+  </script>
+   <script src="https://unpkg.com/scrollreveal"></script>
+   <script src="../../../Ice cream shop website/main.js"></script>
+
+</body>
+</html>

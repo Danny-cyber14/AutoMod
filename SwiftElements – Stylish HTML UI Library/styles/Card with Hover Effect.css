@@ -1,0 +1,57 @@
+/* === Card 3: Hover Effect Card === */
+.hover-card {
+    width: 100%;
+    max-width: 420px;
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    background-color: #fff;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .hover-card:hover {
+    transform: scale(1.02);
+  }
+  
+  .hover-image {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.5s ease;
+  }
+  
+  .hover-card:hover .hover-image {
+    transform: scale(1.1);
+  }
+  
+  .hover-content {
+    padding: 1.2rem;
+    text-align: left;
+  }
+  
+  .hover-content h3 {
+    margin-bottom: 0.5rem;
+    color: #2e86de;
+  }
+  
+  .hover-content p {
+    color: #555;
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hover-btn {
+    padding: 0.5rem 1.2rem;
+    background-color: #2e86de;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .hover-btn:hover {
+    background-color: #1b4f72;
+  }
+  

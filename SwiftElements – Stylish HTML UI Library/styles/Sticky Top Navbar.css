@@ -1,0 +1,36 @@
+/* === Navbar 4 === */
+.navbar-4 {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: #e6fff2;
+  padding: 1rem 2rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  border-radius: 0 0 12px 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-4 .nav-brand {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #008f5d;
+}
+
+.navbar-4 .nav-items {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.navbar-4 .nav-items li a {
+  text-decoration: none;
+  color: #008f5d;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.navbar-4 .nav-items li a:hover {
+  color: #004d38;
+}

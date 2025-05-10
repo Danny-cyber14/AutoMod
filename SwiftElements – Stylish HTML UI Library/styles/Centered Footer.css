@@ -1,0 +1,17 @@
+/* === Footer 3 === */
+.footer-3 {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #4caf50;
+    color: white;
+    font-size: 1rem;
+    border-radius: 8px;
+    margin-top: 3rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .footer-3 p {
+    margin: 0;
+    font-weight: 500;
+  }
+  

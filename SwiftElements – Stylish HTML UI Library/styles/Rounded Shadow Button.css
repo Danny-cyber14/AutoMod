@@ -1,0 +1,18 @@
+/* === Button 3: Rounded Shadow Button === */
+.btn-rounded-shadow {
+    background-color: #6f42c1;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    border-radius: 50px;
+    box-shadow: 0 8px 20px rgba(111, 66, 193, 0.2);
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-rounded-shadow:hover {
+    background-color: #5a32a3;
+    box-shadow: 0 10px 25px rgba(111, 66, 193, 0.3);
+  }
+  

@@ -1,0 +1,58 @@
+/* === Footer 5 === */
+.footer-5 {
+    background-color: #1976d2;
+    color: #fff;
+    padding: 3rem 2rem;
+    text-align: center;
+    border-radius: 12px;
+    margin-top: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .footer5-content h2 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer5-content p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .footer5-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  
+  .footer5-form input[type="email"] {
+    padding: 0.8rem 1rem;
+    border: none;
+    border-radius: 6px;
+    width: 260px;
+    max-width: 90%;
+    font-size: 1rem;
+  }
+  
+  .footer5-form button {
+    padding: 0.8rem 1.5rem;
+    background-color: #0d47a1;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    font-weight: bold;
+  }
+  
+  .footer5-form button:hover {
+    background-color: #1565c0;
+  }
+  
+  .footer5-bottom {
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    color: #d0e4ff;
+  }
+  
