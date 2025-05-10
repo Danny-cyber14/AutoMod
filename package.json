@@ -2,7 +2,7 @@
   "name": "tailwind-car-website",
   "version": "1.0.0",
   "scripts": {
-    "build": "npx tailwindcss -i ./src/css/input.css -o ./dist/output.css --watch"
+    "build": "npx tailwindcss -i ./src/css/input.css -o ./dist/output.css  --minify"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
