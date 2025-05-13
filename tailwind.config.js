@@ -1,6 +1,8 @@
-// tailwind.config.js
 module.exports = {
-  content: ["./dist/**/*.{html,js}", "./dist/index.html"],
+  content: [
+    "./src/**/*.{html,js}", // Watch files in the src folder
+    "./dist/**/*.{html,js}", // Watch files in the dist folder after the build
+  ],
   theme: {
     extend: {
       fontFamily: {
